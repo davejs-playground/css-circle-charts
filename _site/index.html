@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <meta property="og:site_name" content="whitespace"/>
+        <meta property="og:title" content="CSS Circle Charts | Home" />
+        <meta property="og:type" content="article" />
+        <meta property="fb:app_id" content="993574670663995" />
+        <meta property="og:url" content="http://davidleger.me/index.html" />
+        <meta property="og:description" content="Simple Circle Charts using CSS" />
+        <meta property="og:image" content="http://davidleger.me/assets/img/share-img.png" />
+        
+        <link xmlns="http://www.w3.org/1999/xhtml" rel="shortcut icon" type="image/png" href="/assets/img/dl-favicon.png"/>
+        <title>CSS Circle Charts | Home</title>
+
+        <link rel="stylesheet" href="/assets/css/main.css">
+    </head>
+    <body>
+        
+        <div class="container">
+    <div class="circle-chart html">
+    <div class="text">
+        <h2>HTML</h2>
+        <span class="chart-data">20</span>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg">
+     <g>
+      <title>Layer 1</title>
+         <circle id="circle" class="circle_animation full" />
+      <circle id="circle" class="circle_animation PC" 
+              style="stroke-dasharray: 100px, 900px;
+  stroke-dashoffset: 1000px;"/>
+         
+     </g>
+    </svg>
+</div>
+
+<div class="circle-chart css">
+    <div class="text">
+        <h2>CSS</h2>
+        <span class="chart-data">40</span>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg">
+     <g>
+      <title>Layer 1</title>
+         <circle id="circle" class="circle_animation full" />
+      <circle id="circle" class="circle_animation PC" 
+              style="stroke-dasharray: 20%, 294%;
+  stroke-dashoffset: 314%;"/>
+     </g>
+    </svg>
+</div>
+<div class="msg"></div>
+</div>
+        
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="/assets/js/main.js"></script>
+        
+        <!-- GOOGLE ANALYTICS ->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-68783928-3', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <!-- END: GOOGLE ANALYTICS -->
+    </body>
+</html>

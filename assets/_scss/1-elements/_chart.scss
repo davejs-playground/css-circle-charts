@@ -1,0 +1,56 @@
+
+
+.circle-chart {
+    position: relative;
+    margin: auto;
+    font-size: 15px;
+    height: 20em;
+    width: 20em;
+    
+}
+
+.circle-chart .text {
+    text-align:center;
+    position: absolute;
+    top: calc(50% - 5em);
+    width: 100%;
+    h2{
+        font-weight: 100;
+        margin: 0;
+        font-size: 1.5em;
+    }
+    .chart-data{
+        font-size: 7em;
+        font-weight: 100;
+        color: #6fdb6f
+    }
+    
+}
+
+svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+    //background: pink;
+    
+}
+
+.circle_animation {
+  fill: none;
+  cy: 50%;
+  cx: 50%;
+  r: 40%;
+  stroke-width: 5;
+  stroke: #6fdb6f;
+    &.full{
+        stroke: #eee;
+    }
+}
+
+.html .circle_animation {
+    animation: html 1s ease-out forwards;
+}
+
+.css .circle_animation {
+    animation: css 1s ease-out forwards;
+}
