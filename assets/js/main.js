@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     
 });
-
+// TODO refactor this function for maintainability
 (function(){
     var chart = $('.circle-chart');
     var data = null;
