@@ -10,6 +10,11 @@ $(document).ready(function(){
 
     
 });
+
+//TODO implement Huff Post Polster API
+// http://elections.huffingtonpost.com/pollster/api/charts/?state=NH&topic=2016-president-dem-primary
+// http://elections.huffingtonpost.com/pollster/api/charts/?state=NH&topic=2016-president-gop-primary
+
 // TODO refactor this function for maintainability
 (function(){
     var chart = $('.circle-chart');
