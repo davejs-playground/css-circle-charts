@@ -1,12 +1,16 @@
-
-
 .circle-chart {
+    display: inline-block;
     position: relative;
-    margin: auto;
-    font-size: 15px;
+    font-size: 10px;
     height: 20em;
     width: 20em;
-    
+}
+
+.source{
+    font-weight: 100;
+    a{
+        color: inherit;
+    }
 }
 
 .circle-chart .text {
@@ -22,7 +26,7 @@
     .chart-data{
         font-size: 7em;
         font-weight: 100;
-        color: #6fdb6f
+        color: $accent;
     }
     
 }
@@ -41,9 +45,9 @@ svg {
   cx: 50%;
   r: 40%;
   stroke-width: 5;
-  stroke: #6fdb6f;
+  stroke: $accent;
     &.full{
-        stroke: #eee;
+        stroke: rgba(white, 0.25);
     }
 }
 

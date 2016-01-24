@@ -1,0 +1,17 @@
+footer{
+    position: fixed;
+    background: white;
+    overflow: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0px 15px black;
+    
+    color: $dark;
+    font-style: italic;
+    
+    a{
+        color: $primary;
+    }
+    
+}

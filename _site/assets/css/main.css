@@ -363,12 +363,31 @@ td,
 th {
   padding: 0; }
 
-.circle-chart {
-  position: relative;
+body {
+  background: #0066ba;
+  color: white; }
+
+.container {
+  max-width: 640px;
   margin: auto;
-  font-size: 15px;
+  overflow: auto;
+  text-align: center; }
+
+h1 {
+  font-weight: 100;
+  font-size: 3em; }
+
+.circle-chart {
+  display: inline-block;
+  position: relative;
+  font-size: 10px;
   height: 20em;
   width: 20em; }
+
+.source {
+  font-weight: 100; }
+  .source a {
+    color: inherit; }
 
 .circle-chart .text {
   text-align: center;
@@ -382,7 +401,7 @@ th {
   .circle-chart .text .chart-data {
     font-size: 7em;
     font-weight: 100;
-    color: #6fdb6f; }
+    color: #f55b5b; }
 
 svg {
   -webkit-transform: rotate(-90deg);
@@ -397,9 +416,9 @@ svg {
   cx: 50%;
   r: 40%;
   stroke-width: 5;
-  stroke: #6fdb6f; }
+  stroke: #f55b5b; }
   .circle_animation.full {
-    stroke: #eee; }
+    stroke: rgba(255, 255, 255, 0.25); }
 
 .html .circle_animation {
   -webkit-animation: html 1s ease-out forwards;
@@ -408,3 +427,16 @@ svg {
 .css .circle_animation {
   -webkit-animation: css 1s ease-out forwards;
           animation: css 1s ease-out forwards; }
+
+footer {
+  position: fixed;
+  background: white;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0px 15px black;
+  color: #4A4A4A;
+  font-style: italic; }
+  footer a {
+    color: #0066ba; }

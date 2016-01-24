@@ -404,4 +404,88 @@ td,
 th {
   padding: 0; }
 
+/* line 1, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_body.scss */
+body {
+  background: #0066ba;
+  color: white; }
+
+/* line 5, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_body.scss */
+.container {
+  max-width: 640px;
+  margin: auto;
+  overflow: auto;
+  text-align: center; }
+
+/* line 12, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_body.scss */
+h1 {
+  font-weight: 100;
+  font-size: 3em; }
+
+/* line 1, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.circle-chart {
+  display: inline-block;
+  position: relative;
+  font-size: 10px;
+  height: 20em;
+  width: 20em; }
+
+/* line 9, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.source {
+  font-weight: 100; }
+  /* line 11, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+  .source a {
+    color: inherit; }
+
+/* line 16, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.circle-chart .text {
+  text-align: center;
+  position: absolute;
+  top: calc(50% - 5em);
+  width: 100%; }
+  /* line 21, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+  .circle-chart .text h2 {
+    font-weight: 100;
+    margin: 0;
+    font-size: 1.5em; }
+  /* line 26, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+  .circle-chart .text .chart-data {
+    font-size: 7em;
+    font-weight: 100;
+    color: #f55b5b; }
+
+/* line 34, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%; }
+
+/* line 42, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.circle_animation {
+  fill: none;
+  cy: 50%;
+  cx: 50%;
+  r: 40%;
+  stroke-width: 5;
+  stroke: #f55b5b; }
+  /* line 49, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+  .circle_animation.full {
+    stroke: rgba(255, 255, 255, 0.25); }
+
+/* line 54, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.html .circle_animation {
+  animation: html 1s ease-out forwards; }
+
+/* line 58, /Users/David/Documents/css-circle-charts/assets/_scss/1-elements/_chart.scss */
+.css .circle_animation {
+  animation: css 1s ease-out forwards; }
+
+/* line 1, /Users/David/Documents/css-circle-charts/assets/_scss/2-modules/_footer.scss */
+footer {
+  position: fixed;
+  background: white;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
 /*# sourceMappingURL=main.css.map */
